@@ -1,10 +1,10 @@
 number = 8
-#print "Go ahead try!"
 
 loop do
 	print "Can you guess the number I'm thinking?"
 	guess = gets.chomp.to_i
 
+	unless guess == number
 		if guess > number
 			puts "Sorry, it's greater than that. Try again"
 		else if guess < number
@@ -13,4 +13,5 @@ loop do
 				puts "Congrats!"
 			end
 		end
+	end
 end
