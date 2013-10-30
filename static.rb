@@ -12,5 +12,6 @@ loop do
 		end
 	else
 		puts "Congrats!"
+		exit
 	end
 end
