@@ -1,8 +1,8 @@
 number = 8
 
-puts "Can you guess the number I'm thinking?"
+print "Can you guess the number I'm thinking?"
 
-print "Go ahead try!"
+#print "Go ahead try!"
 guess = gets.chomp.to_i
 
 	if guess > number
