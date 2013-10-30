@@ -7,11 +7,10 @@ loop do
 	unless guess == number
 		if guess > number
 			puts "Sorry, it's greater than that. Try again"
-		else if guess < number
+		else 
 				puts "Sorry, it's less than that. Try again"
-			else
-				puts "Congrats!"
-			end
 		end
+	else
+		puts "Congrats!"
 	end
 end
