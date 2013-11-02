@@ -1,4 +1,4 @@
-number = 8
+number = rand (1..10)
 
 loop do
 	print "Can you guess the number I'm thinking?"
