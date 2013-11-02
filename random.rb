@@ -6,9 +6,9 @@ loop do
 
 	unless guess == number
 		if guess > number
-			puts "Sorry, it's greater than that. Try again"
+			puts "Sorry, it's less than that. Try again"
 		else 
-				puts "Sorry, it's less than that. Try again"
+				puts "Sorry, it's greater than that. Try again"
 		end
 	else
 		puts "Congrats!"
